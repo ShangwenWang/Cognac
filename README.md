@@ -24,6 +24,7 @@ To reproduce our study, you need to:
 1. Execute `datasetextractor.py` to extract the inputs of ***Cognac***;
 2. Execute `train_fasttext.py` to train the FastText model with using the extracted data from the last step.
 3. Train, validate, and test the model by executing `start_train.sh`, `start_eval.sh`, and `start_decode.sh` respectively.
+4. If you want to reproduce the MCC task, execute `decode_mcc.py` and `cal_sim.py` respectively.
 
 ## Performance Analysis
 
