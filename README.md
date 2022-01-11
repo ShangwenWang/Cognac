@@ -13,8 +13,8 @@ All datasets used in our study are open-sourced. We provide the links to each of
 
 ## Requirements
 
-Our ***Cognac*** is implemented by following the [pointer generator network](https://github.com/abisee/pointer-generator).
-It is built on Pytorch-1.5 and TensorFlow-1.12.
+Our ***Cognac*** is implemented by following the PyTorch version of [pointer generator network](https://github.com/atulkum/pointer_summarizer).
+It is built on PyTorch-1.5 and TensorFlow-1.12.
 We use FastText to embed each token and utilize the Python package javalang to perform program analysis. Link to the installation of this package is [here](https://github.com/Ringbo/javalang).
 
 ## Reproduction Steps
